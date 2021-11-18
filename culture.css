@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "nav nav"
+  "pictureOne informationOne "
+  "pictureTwo informationTwo"
+  "pictureThree informationThree"
+  " footer footer";
+  grid-gap: 10px;
+  
+}
+nav{
+  grid-area: nav;
+background-color: lightseagreen;
+
+
+
+
+}
+nav li{
+  display: inline;
+  padding: 40px
+}
+.pictureOne{
+      grid-area: pictureOne; 
+   background-color: lightseagreen;
+   padding: 40px
+
+}
+
+.informationOne{ 
+    grid-area: informationOne;
+ background-color: lightseagreen;
+ padding: 40px
+}
+
+ 
+.pictureTwo{
+  grid-area:pictureTwo;
+ background-color:lightseagreen;
+ padding: 40px
+
+}
+    
+
+.informationTwo{ 
+    grid-area:informationTwo;
+   background-color: lightseagreen;
+    padding: 40px
+
+  }
+.pictureThree{ 
+    grid-area:pictureThree;
+   background-color: lightseagreen;
+    padding: 40px
+}
+
+.informationThree { 
+    grid-area:informationThree;
+   background-color: lightseagreen;
+    padding: 40px
+
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+.button:hover, .active{
+  background: lightseagreen;
+}
+
+
+
+ footer{ 
+    grid-area:footer;
+    background-color: lightseagreen;
+    padding: 40px;
+      text-align: center;
+     font-family: 'Mohave', sans-serif;
+    
+ }
+
+p {
+  font-size: 20px;
+  font-family: 'Mohave', sans-serif;
+}

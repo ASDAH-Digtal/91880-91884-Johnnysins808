@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "nav nav"
+  "pictureOne informationOne" 
+  "footer footer";
+  grid-gap: 10px;
+}
+
+nav {
+  grid-area:nav;
+  border: white;
+  background-color: lightseagreen;
+}
+    
+.pictureOne {
+  grid-area:pictureOne;
+  border: white;
+  background-color: lightseagreen;
+}
+ 
+.informationOne { 
+  grid-area:informationOne;
+  border: white;
+  background-color: lightseagreen;
+  padding: 100px;
+}
+
+footer { 
+  grid-area:footer;
+  border: white;
+  background-color: lightseagreen;
+  padding: 40px;
+    text-align: center;
+  font-family: 'Mohave', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin: 4px 2px;
+}
+
+.button:hover, .active{
+  background: lightseagreen;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Mohave', sans-serif;
+}

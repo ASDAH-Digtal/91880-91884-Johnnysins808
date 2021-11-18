@@ -1,0 +1,65 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "nav nav"
+  "profile information1"
+  "information2 information2" 
+  "information3 information3"
+  "footer footer";
+  grid-gap: 10px;
+}
+
+nav{
+  grid-area:nav;
+ border: white;
+  background-color: green;
+}
+    
+.profile{
+  grid-area:profile;
+  border: white;
+  background-color: green;
+}
+ 
+  .information1{ 
+    grid-area:information1;
+  border: white;
+    background-color:  green;
+}
+
+ 
+.information2{
+  grid-area:information2;
+  border: white;
+  background-color:  green;
+  padding: 100px;
+}
+    
+
+  .information3{ 
+    grid-area:information3;
+    border: white;
+    background-color: green;
+    grid-gap: white;
+    padding: 100px
+
+  }
+
+
+ footer{ 
+    grid-area:footer;
+    border: white;
+    background-color: green;
+      padding: 30px
+ }
+
+
+
+
+
+  
+ 
+
+
